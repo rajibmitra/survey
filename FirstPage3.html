@@ -1,0 +1,139 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+<div class="danger">
+  <p><strong></strong> </p>
+</div>
+<style>
+div {
+    margin-bottom: 82px;
+    padding: -8px -9px;
+	background-color: #524952f0;
+
+}
+h3 {
+    color: white;
+}
+.checkbox{
+     color : white;
+}
+lable{
+  display: inline-block;
+    margin: 8px;
+    padding: 12px;
+    list-style: none;
+    width: 493px;
+   
+    padding-right: 276px ;
+}
+
+.danger {
+    width: 1200px;
+    background-color: #bb511e;
+    height: 85px;
+    float: right;
+    
+}
+.center {
+    margin: auto;
+    width: 87%;
+    float: right;
+    border: 3px solid #6153d82e;
+    padding: 75px;
+}
+.header img {
+  float: left;
+    width: 115px;
+    height: 85px;
+    background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {background-color: #008CBA;}
+</style>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "secondPage.html";
+    };
+</script>
+
+<div class="header">
+  <img src="C:\Users\subhadipbisvst\Desktop\images\image.jpg" alt="logo" />
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="center">
+<from>
+<lable> <h3>Are your end user complaining about application slowness? </h3></lable>
+ <select style="height: 38px;  width: 122px;">
+  <option value="Frequently">Frequently</option>
+  <option value="Sometimes">Sometimes</option>
+  <option value="Never">Never</option>
+</select>
+<br>
+
+<lable><h3>Do you face application downtime in buisness hour? </h3> </lable> 
+ <select style="height: 38px;  width: 122px;">
+  <option value="Frequently">Frequently</option>
+  <option value="Sometimes">Sometimes</option>
+  <option value="Never">Never</option>
+</select>
+<br>
+<lable><h3>Is your IT infrastructure used optimally? </h3> </lable>
+ <select style="height: 38px;  width: 122px;">
+  <option value="Partially">Partially</option>
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+</select>
+<br>
+<lable><h3>Do you find difficulty in ROI calculation for future investment due to buisness  growth? </h3> </lable>
+ <select style="height: 38px;  width: 122px;">
+
+<option value="Yes">Yes</option>
+  <option value="No">No</option>
+</select>
+<br>
+<lable><h3>Buisness  impacts as per you due to performance issues </h3> </lable>
+<br>
+<div class = "checkbox">
+<input type="checkbox" name="Rec" value="N1">Reduction in customer retention<br>
+<input type="checkbox" name="Dim" value="N2">Diminished Quality of Service<br>
+<input type="checkbox" name="Hin" value="N3">Hindering brand reputation<br>
+<input type="checkbox" name="Lev" value="N4">Less visibility in future business growth<br>
+<input type="checkbox" name="Ina" value="N5">Inadequate planning for infrastucture sizing and upgradation<br>
+<input type="checkbox" name="Low" value="N6">Low profit mergin<br>
+<input type="checkbox" name="Cut" value="N7">Cut off in CoE setup and innovation budget<br>
+</div>
+<lable><h3>Average yearly revenue loss as per you due to performance issues</h3> </lable> <input type = "text"  name ="name" />
+<br>
+<br>
+<br>
+<br>
+<center><button class="button button2"> Submit </button>   <button class="button button2" onclick="location.href = 'secondPage.html';" id="myButton"> Next </button></center>  
+
+
+</from>
+</div>
+</html>

@@ -1,0 +1,73 @@
+<html>
+
+<h5>Could you please spare some more time to answer below questions to understand the process and strategy you follow at enterprise level for application performance management</h5>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+// $("#formId").submit(function (event) {
+//   $.post('/route', $("#formId").serialize(), function (data) {
+//  	console.log(data) //data is the response from the 
+//   });
+//   event.preventDefault();
+// });
+
+$("#formId").submit(function (event) {
+   $("#formId").serialize(), function (data) {
+ 	console.log(data) //data is the response from the 
+  };
+  
+});
+</script>
+<style>
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+</style>
+<body>
+    <form action = "/route" id="formId" method ="POST" >
+<div class="center">
+  <input type = "text" name = "hello"/>
+  <br>
+<lable><h4>Do you face application downtime in buisness hour? </h4> </lable> 
+Do you analyze non-functional requirements for your application to get the 
+idea of production user traffic, system response time, transaction rate etc? 
+<select >
+  <option value="5">Partially</option>
+  <option value="10">Yes</option>
+  <option value="0">No</option>
+  
+</select>
+<lable><h4>Do you have a streamlined performance baselining process i.e regular 
+load/stress testing of application and analysis of captured performance metrics?</h4></lable>
+<select>
+  <option value="5">Partially</option>
+  <option value="10">Yes</option>
+  <option value="0">No</option>
+</select>
+<lable><h4>Do you have proactive monitoring strategy to monitor application performance?</h4></lable>
+<select>
+  <option value="5">Partially</option>
+  <option value="10">Yes</option>
+  <option value="0">No</option>
+</select>
+<lable><h4>Do you maintain any enterprise level dashboard to check the system and infrastructure  health?</h4></lable>
+<select>
+  <option value="5">Partially</option>
+  <option value="10">Yes</option>
+  <option value="0">No</option>
+</select>
+<lable><h4>Types of Performance re-engineering exercise you follow in regular basis</h4></lable>
+<select>
+  <option value="5">Partially</option>
+  <option value="10">Yes</option>
+  <option value="0">No</option>
+  
+</select>
+
+<button type="submit" id="submitButton">Submit</button>
+</div>
+</form>
+</body>
+</html>
